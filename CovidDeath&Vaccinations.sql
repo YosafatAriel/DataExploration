@@ -1,3 +1,5 @@
+-- THIS DATA EXPLORATION IS BASED ON EXCEL FILE FROM => https://ourworldindata.org/covid-deaths
+
 SELECT Location, date, total_cases, total_deaths, population
 FROM CovidDeaths$
 ORDER BY 1, 2
